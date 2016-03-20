@@ -1,0 +1,85 @@
+body {
+
+  font-family: Verdana, Geneva, sans-serif
+
+}
+.task-block{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 50%;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+.task-done{
+
+    background-color:  #eeffe6;
+
+}
+
+.task-undone{
+    background-color:   #ffcccc;
+}
+
+.salary{
+
+  text-align: left;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+
+}
+
+
+.employee{
+  line-height: 50%;
+width: 300px;
+background-color: #eeeeee;
+padding-top: 5px;
+padding-left: 5px;
+border-radius: 5px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+
+
+}
+.employee p{
+
+
+
+}
+.form-container {
+  display: block;
+
+}
+.form-container fieldset{
+  display: block;
+  width: 400px;
+}
+.form-container .submit{
+  width: 80px;
+}
+.form-container input{
+  width: 200px;
+  margin-left: 10px;
+}
+.form-container select{
+  width: 200px;
+  margin-left: 10px;
+}
+
+.form-container label{
+  color: grey;
+  text-align: right;
+  width: 150px;
+  float: left;
+}
+.showSal{
+
+  float: left;
+  padding: 5px;
+}

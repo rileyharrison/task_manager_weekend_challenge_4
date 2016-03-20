@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekend Challenge 4: Task Manager</title>
+    <!--styles-->
+    <link rel = "stylesheet" href = "/assets/styles/style.css"  />
+    <!-- scripts-->
+    <script type = "text/javascript" src="/assets/vendors/jquery.min.js"></script>
+
+    <script type = "text/javascript" src="/scripts/client.js"></script>
+
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <div class = "form-container">
+        <form id="frmTask">
+            <fieldset class = "taskFields">
+
+              <legend>
+                New Task
+              </legend>
+            <label for = "fld_task_desc">Description</label>
+            <input type = "text" name = "fld_task_desc" id = "fld_task_desc" placeholder="Description"/>
+            <label for = "fld_task_due">Date Due</label>
+
+            <input type = "date" name = "fld_task_due" id="fld_task_due" placeholder="Date Due"/>
+
+            <label for = "fld_task_priority">Priority</label>
+            <select name = "fld_task_priority" id = "fld_task_priority">
+                <option value = "0">None</option>
+                <option value = "1">Low</option>
+                <option value = "2">Medium</option>
+                <option value = "3">High</option>
+            </select>
+            <input type = "submit" class = "submit" name = "btn-submit" value = "Save" />
+        </fieldset>
+        </form>
+    </div>
+    <p>
+        Incomplete Tasks
+    </p>
+    <div class = "tasks-incomplete">
+
+    </div>
+    <p>
+        Complete Tasks
+    </p>
+    <div class = "tasks-complete">
+
+    </div>
+</body>
+</html>

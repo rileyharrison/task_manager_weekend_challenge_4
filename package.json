@@ -1,0 +1,19 @@
+{
+  "name": "task_manager_weekend_challenge_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+
+  },
+  "author": "Riley Harrison",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jquery": "^2.2.2",
+    "pg": "^4.5.1"
+  }
+}
