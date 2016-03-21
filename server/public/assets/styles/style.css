@@ -1,7 +1,13 @@
 body {
 
-  font-family: Verdana, Geneva, sans-serif
+  font-family: Verdana, Geneva, sans-serif;
+ background-image: url("/assets/images/backDrop.jpg");
+ color: white;
 
+}
+.taskFields{
+    background-color:   #cce6ff;
+    border-radius: 10px;
 }
 .task-block{
     width: 300px;
@@ -10,11 +16,15 @@ body {
     line-height: 50%;
     margin-bottom: 5px;
     padding-left: 10px;
+    color: #333333;
+    padding-bottom: 5px;
 
 }
 .task-done{
 
-    background-color:  #eeffe6;
+    background-color:   #ccffe6;
+
+
 
 }
 
